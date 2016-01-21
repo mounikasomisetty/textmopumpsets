@@ -1,0 +1,158 @@
+body
+{
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height: 100%;
+	width: 100%;
+	/*background: url('water.jpg') no-repeat fixed center;
+	background-size: cover;*/
+	
+}
+.company_logo
+{
+	/*height: 75px;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+}
+.logo-middle
+{
+
+	height: 50px;
+	margin: 0 auto !important;
+   display: inline-block !important;
+}
+/*.circle-border
+{
+	border: 10px solid #333;
+	border-radius: 50%;
+	padding: 4px;
+	background-color: #333;
+}*/
+.brand{
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+.navbar li
+{
+	text-transform: uppercase;
+	/*font-weight: bold;*/
+	font-size: 13px;
+}
+.main
+{
+	background-color: rgba(0, 0, 0,0.5);
+	height: 500px;
+	width: 100%;
+}
+.logoo
+{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	 text-align:center;
+}
+.top{
+	margin-top: 10px;
+}
+.navbar-right
+{
+	margin: 0 auto !important;
+   display: inline-block !important;
+}
+
+.region
+{
+	width: 100%;
+	height: 550px;
+	
+}
+
+.one
+{
+	background:#ffffff url("http://www.netanimations.net/black-and-white-drip-gif-water-Favim.com-367748.gif") no-repeat fixed right top;
+	background-size: cover;
+}
+
+.one .content
+{
+	
+	background-color:rgba(255,255,255,0.8);
+}
+
+.content
+{
+	width: 100%;
+	height: 100%;	
+}
+
+.two{
+	background: #262F36;
+	color: white;
+}
+
+.two .content{
+	background-color:rgba(255,255,255,0.1);
+}
+
+.va {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.four{
+	background:#ffffff url("https://upload.wikimedia.org/wikipedia/commons/f/fc/Water_droplet_blue_bg05.jpg") no-repeat fixed right top;
+	background-size: cover;
+}
+
+.four .content{
+	background-color:rgba(255,255,255,0.6);
+}
+
+.company{
+	font-size: 100px !important;
+}
+
+.five{
+	background-color: #666;
+}
+
+
+/**/
+
+
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #777;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #fff; /* Old browsers */
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+	border-bottom: 1px dashed #666;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
